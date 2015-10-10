@@ -59,4 +59,22 @@ var routes = Routes{
 		"/todos",
 		TodoCreate,
 	},
+	Route{
+		"UserIndex",
+		"GET",
+		"/users",
+		UserIndex,
+	},
+	Route{
+		"UserShow",
+		"GET",
+		"/users/{userId}",
+		UserShow,
+	},
+	Route{
+		"UserCreate",
+		"POST",
+		"/users",
+		UserCreate,
+	},
 }
